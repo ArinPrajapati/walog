@@ -1,0 +1,16 @@
+{
+  "name": "walog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

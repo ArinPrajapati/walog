@@ -1,0 +1,41 @@
+Basics & Array Manipulation
+
+    Find the maximum and minimum element in an array.
+    Reverse an array. -- done
+    Find the “Kth” max and min element of an array. --done
+    Move all the negative elements to one side of the array. --done
+    Sort an array of 0s, 1s, and 2s without sorting algorithms (e.g., Dutch National Flag problem). -- done 
+    Find the union and intersection of two sorted arrays. -- done
+    Rotate an array by "K" elements. 
+
+Intermediate Problems
+
+    Find the largest contiguous subarray sum (Kadane’s Algorithm).
+    Minimize the maximum difference between heights of towers in an array (Height Difference problem).
+    Find duplicates in an array with optimal space complexity.
+    Merge overlapping intervals.
+    Find a subarray with a given sum.
+    Count the number of inversions in an array.
+    Rearrange an array in alternating positive and negative items, without changing the order.
+    Find the "Kth" largest element in an unsorted array (use heaps or quickselect).
+
+Advanced Problems
+
+    Find the smallest positive missing number in an array.
+    Subarray with XOR equal to a given number (using hashmaps).
+    Find the longest consecutive sequence in an array.
+    Trapping Rainwater problem.
+    Maximum Product Subarray.
+    Longest Mountain in Array.
+    Subarray sums divisible by "K".
+    Sliding Window Maximum.
+    Find the number of subarrays with a sum equal to "K" (prefix sums).
+    Largest rectangle in histogram (extension of array problems).
+
+Multi-Dimensional Arrays
+
+    Search a 2D matrix.
+    Set matrix zeroes (rows and columns containing zero should be zeroed).
+    Rotate a matrix by 90 degrees.
+    Spiral traversal of a matrix.
+    Find the median in a row-wise sorted matrix.

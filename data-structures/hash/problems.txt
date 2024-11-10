@@ -1,0 +1,14 @@
+# Basic Problems
+1. Implement a hash table from scratch.
+2. Write a function to find the first non-repeating character in a string using a hash map.
+3. Create a hash map to count the frequency of elements in an array.
+
+# Intermediate Problems
+1. Implement a LRU (Least Recently Used) cache using a hash map and a doubly linked list.
+2. Given two arrays, find the intersection using a hash set.
+3. Write a function to group anagrams from a list of strings using a hash map.
+
+# Advanced Problems
+1. Design and implement a consistent hashing algorithm.
+2. Implement a spell checker using a hash map and edit distance algorithm.
+3. Write a function to find the longest substring without repeating characters using a hash map.
