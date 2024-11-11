@@ -172,20 +172,15 @@ const moveNegativeElements = (arr) => {
  */
 const RotateArrayByK = (arr, k) => {
   const n = arr.length;
-  if (n === 0 || n === 1 || k === 0) return arr.slice(); // Return a copy of the array if rotation has no effect
-
-  // Normalize k to ensure it’s within the bounds of 0 to n-1
+  if (n === 0 || n === 1 || k === 0) return arr.slice();
   k = k % n;
 
-  // If k is negative, convert it to a positive equivalent rotation
   if (k < 0) {
     k = n + k;
   }
 
-  // If k is 0 or equal to n, no rotation is needed
-  if (k === 0) return arr.slice(); // Return a copy of the array if k is 0 or a multiple of n
+  if (k === 0) return arr.slice();
 
-  // Return a new rotated array without modifying the original array
   return [...arr.slice(-k), ...arr.slice(0, n - k)];
 };
 
