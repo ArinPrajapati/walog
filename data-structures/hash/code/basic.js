@@ -25,8 +25,6 @@ const firstNonRepeatingCharacter = (str) => {
       hash[char] = 1;
     }
   }
-  console.log(hash);
-
   for (let i = 0; i < str.length; i++) {
     const char = str[i];
     if (hash[char] === 1) {

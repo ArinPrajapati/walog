@@ -6,7 +6,7 @@ Basics & Array Manipulation
     Move all the negative elements to one side of the array. --done
     Sort an array of 0s, 1s, and 2s without sorting algorithms (e.g., Dutch National Flag problem). -- done 
     Find the union and intersection of two sorted arrays. -- done
-    Rotate an array by "K" elements. 
+    Rotate an array by "K" elements. -- done
 
 Intermediate Problems
 
