@@ -43,3 +43,4 @@ test("sorts an array with large numbers", () => {
 test("sorts an array with floating point numbers", () => {
   expect(quickSort([3.1, 2.2, 1.3])).toEqual([1.3, 2.2, 3.1]);
 });
+
