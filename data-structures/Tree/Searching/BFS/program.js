@@ -20,7 +20,7 @@ b.right = e;
 // Implement BFS
 // find the node with the value of 6
 function bfs(node) {
-  const queue = [node]; // initialize the queue with the root node
+  const queue = [node]; 
   while (queue.length > 0) {
     console.log(queue);
     const current = queue.shift();
@@ -38,4 +38,4 @@ function bfs(node) {
 }
 
 
-console.log(bfs(a)); // Node { value: 6, left: null, right: null }
+console.log(bfs(a)); 
