@@ -41,3 +41,12 @@ d.next = e;
 e.next = f;
 
 console.log(addTwoNumbers(a, d));
+
+/// Time Complexity: O(max(m, n)) where m and n represents the length of l1 and l2 respectively.
+
+/// example: 342 + 465 = 807
+//  3 -> 4 -> 2
+//  4 -> 6 -> 5
+//  7 -> 0 -> 8
+
+/// 8 -> 0 -> 7 -> null
