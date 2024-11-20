@@ -5,7 +5,7 @@
 const capitalizeFirst = (arr) => {
   const result = [];
 
-  console.log(arr)
+  console.log(arr);
   if (!arr.length) return result;
 
   result.push(arr[0][0].toUpperCase() + arr[0].slice(1));
@@ -13,3 +13,6 @@ const capitalizeFirst = (arr) => {
 };
 
 console.log(capitalizeFirst(["book", "pen", "pencil"]));
+
+/// [Book], [Pen], [Pencil]
+// concat [Book, Pen, Pencil]
