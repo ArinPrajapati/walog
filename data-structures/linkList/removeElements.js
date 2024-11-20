@@ -5,18 +5,19 @@ function ListNode(val, next) {
 
 /**
  * @param {ListNode} head
+ * @param {number} val
  * @return {ListNode}
  */
-var deleteDuplicates = function (head) {
+var removeElements = function (head, val) {
   let current = head;
   let prev = null;
 
   while (current) {
-    if (prev) {
-      if (current.val == prev.val) {
+    if (current.val == val) {
+      if (prev) {
         prev.next = current.next;
       } else {
-        prev = current;
+        head = current.next;
       }
     } else {
       prev = current;
@@ -24,15 +25,23 @@ var deleteDuplicates = function (head) {
 
     current = current.next;
   }
+
   return head;
 };
 const a = new ListNode(1);
 const b = new ListNode(1);
 const c = new ListNode(1);
+const d = new ListNode(1);
 const e = new ListNode(1);
+const f = new ListNode(1);
+const g = new ListNode(1);
+
 a.next = b;
 b.next = c;
-c.next = e;
+c.next = d;
+d.next = e;
+e.next = f;
+f.next = g;
 
 function printList(head) {
   let current = head;
@@ -41,6 +50,5 @@ function printList(head) {
     current = current.next;
   }
 }
-printList(deleteDuplicates(a));
-// 1 1 1 1
-//
+
+printList(removeElements(a, 1));
