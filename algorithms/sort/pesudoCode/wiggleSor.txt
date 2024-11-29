@@ -1,0 +1,27 @@
+function wiggleSort takes arr
+
+sort the arr
+high = arr.length - 1
+low = 0
+some loop i will track the currect variable:
+we will check if the i is even or not
+
+if even
+	then we will check if i + 1 is smaller than i
+		
+		we will replace  i + 1 with arr[high] 
+		high--
+
+	then we will check if i - 1 is smaller than i
+	        we will replace i - 1 with arr[high]
+		high--
+
+else 
+
+	then we will check if i - 1 is bigger than i
+		
+		we will replace i - 1 with arr[low]
+		low++
+	then we will check if i + 1 is bigger than i 
+		we will replace i + 1 with 
+
