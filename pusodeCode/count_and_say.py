@@ -18,7 +18,7 @@ def count_and_say(n:int):
                 else:
                     count = count + 1
 
-        newSay = str(count) + last 
+        newSay += str(count) + say[-1]
         say = newSay
 
     print(say)
